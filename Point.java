@@ -52,6 +52,7 @@ public class Point
     }
 
     //rotate method
+    public
 
 
 }
