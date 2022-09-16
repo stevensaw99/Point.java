@@ -52,7 +52,26 @@ public class Point
     }
 
     //rotate method
+    public void rotate(double theta)
+    {
+        double x1 = this.x;
+        double y1 = this.y;
+
+        x = (x * Math.cos(theta)) - (y * Math.sin(theta));
+        y = (x * Math.sin(theta)) + (y * Math.cos(theta));
+    }
+
+    //to String
 
 
-
+    @java.lang.Override
+    public java.lang.String toString() {
+        final java.lang.StringBuilder sb = new java.lang.StringBuilder("Point{");
+        sb.append("x=")
+                .append(x);
+        sb.append(", y=")
+                .append(y);
+        sb.append('}');
+        return sb.toString();
+    }
 }
