@@ -70,4 +70,5 @@ public class Point
         return "Point{" +
                 "x=" + x +
                 ", y=" + y + "}";
+    }
 }
