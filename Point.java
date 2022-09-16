@@ -64,14 +64,10 @@ public class Point
     //to String
 
 
-    @java.lang.Override
-    public java.lang.String toString() {
-        final java.lang.StringBuilder sb = new java.lang.StringBuilder("Point{");
-        sb.append("x=")
-                .append(x);
-        sb.append(", y=")
-                .append(y);
-        sb.append('}');
-        return sb.toString();
-    }
+    @Override
+    public String toString()
+    {
+        return "Point{" +
+                "x=" + x +
+                ", y=" + y + "}";
 }
